@@ -1,10 +1,12 @@
 FROM golang:alpine as build-stage
 
-# Build librdkafka
+#Install dev tools
 RUN apk add --update --no-cache alpine-sdk bash ca-certificates \
       libressl \
       tar \
       git openssh openssl yajl-dev zlib-dev cyrus-sasl-dev openssl-dev build-base coreutils
+
+# Build librdkafka
 WORKDIR /root
 RUN git clone https://github.com/edenhill/librdkafka.git
 WORKDIR /root/librdkafka
