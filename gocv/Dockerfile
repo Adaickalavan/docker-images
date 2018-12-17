@@ -18,10 +18,7 @@ WORKDIR $GOPATH/src/gocv.io/x/gocv
 # Quick install OpenCV 4.0.0 on Linux container
 RUN make install
 
-#Run the app command by default when the container starts
-ENTRYPOINT ["go", "run", "./cmd/version/main.go"]
-
-#Running 
+#By enabling the ENTRYPOINT command below, running 
 # ```
 # docker run <image_name>
 # ```
@@ -32,3 +29,6 @@ ENTRYPOINT ["go", "run", "./cmd/version/main.go"]
 #gocv version: 0.18.0
 #opencv lib version 4.0.0
 # ```
+
+# Run the app command by default when the container starts
+# ENTRYPOINT ["go", "run", "./cmd/version/main.go"]
