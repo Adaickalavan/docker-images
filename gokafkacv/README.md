@@ -2,7 +2,7 @@
 
 Automated docker build image containing:
 
-+ FROM adaickalavan/confluent-kafka-go
++ FROM adaickalavan/gokafka
   + Alpine
   + Golang
   + Librdkafka
