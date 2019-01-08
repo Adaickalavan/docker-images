@@ -6,4 +6,4 @@ Automated docker build image for:
 + GoCV
 + OpenCV 4.0.0
 
-Docker image available at [DockerHub](https://cloud.docker.com/u/adaickalavan/).
+Docker image available at [DockerHub](https://hub.docker.com/u/adaickalavan).
