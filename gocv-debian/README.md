@@ -1,4 +1,4 @@
-# GoCV
+# GoCV-Debian
 
 Automated docker build image for:
 
