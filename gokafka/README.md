@@ -1,4 +1,4 @@
-# Confluent-Kafka-Go
+# GoKafka
 
 Automated docker build image for:
 
