@@ -1,4 +1,4 @@
-FROM adaickalavan/confluent-kafka-go as build-stage
+FROM adaickalavan/gokafka as build-stage
 
 #Author label
 LABEL Author Adaickalavan Meiyappan
