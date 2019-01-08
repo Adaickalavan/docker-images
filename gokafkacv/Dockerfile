@@ -10,6 +10,7 @@ ENV BUILD="ca-certificates \
          musl-dev \
          alpine-sdk \
          make \
+         ffmpeg \
          gcc \
          g++ \
          libc-dev \
