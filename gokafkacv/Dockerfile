@@ -1,4 +1,4 @@
-FROM adaickalavan/gocv-alpine:4.0.0-buildstage as build-stage
+FROM adaickalavan/gocv-alpine:4.0.0-buildstage
 
 #Author label
 LABEL Author Adaickalavan Meiyappan

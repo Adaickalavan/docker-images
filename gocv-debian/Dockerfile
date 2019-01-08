@@ -1,6 +1,6 @@
 # Start from a Debian image with the latest version of GO 
 # installed and a workspace (GOPATH) configured at /go.
-FROM golang:latest as build-stage
+FROM golang:latest
 
 #Author label
 LABEL Author Adaickalavan Meiyappan

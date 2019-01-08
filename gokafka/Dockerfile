@@ -1,4 +1,4 @@
-FROM golang:alpine as build-stage
+FROM golang:alpine
 
 #Install dev tools
 RUN apk add --update --no-cache alpine-sdk bash ca-certificates \
