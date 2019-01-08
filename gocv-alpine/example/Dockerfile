@@ -1,4 +1,4 @@
-FROM adaickalavan/gocv-alpine:4.0.0-buildstage as build-stage
+FROM adaickalavan/gocv-alpine:4.0.0-build-stage as build-stage
 
 RUN go get -u -d gocv.io/x/gocv
 RUN cd $GOPATH/src/gocv.io/x/gocv && go build -o $GOPATH/bin/gocv-version ./cmd/version/main.go
