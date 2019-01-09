@@ -30,7 +30,7 @@ pushd runtime && docker build -t adaickalavan/gocv-alpine:4.0.0-runtime .; popd
 ## Build the build-stage image
 
 ```bash
-pushd build-stage && docker build -t adaickalavan/gocv-alpine:4.0.0-buildstage .; popd
+pushd build-stage && docker build -t adaickalavan/gocv-alpine:4.0.0-build-stage .; popd
 ```
 
 ## Test sample:
