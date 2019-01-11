@@ -1,9 +1,7 @@
-FROM adaickalavan/gocv-kafka
+FROM adaickalavan/gocv-debian
 
 #Author label
 LABEL Author Adaickalavan Meiyappan
-
-
 
 #Install dev tools for building Librdkafka and confluent-kafka-go
 RUN apk add --update --no-cache alpine-sdk bash ca-certificates \
