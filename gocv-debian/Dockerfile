@@ -7,7 +7,7 @@ LABEL Author Adaickalavan Meiyappan
 
 # Install runtime tools
 RUN apt-get update
-RUN apt-get install build-essential sudo -y
+RUN apt-get install build-essential sudo ffmpeg libgtk2.0-dev pkg-config -y
 
 #Install the GoCV package
 RUN go get -u -d gocv.io/x/gocv
